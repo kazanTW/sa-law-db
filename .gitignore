@@ -1,0 +1,37 @@
+# 通用設定
+*.log
+*.pyc
+*.pyo
+*.env
+.DS_Store
+Thumbs.db
+
+# IDE/編輯器相關
+.vscode/
+.idea/
+
+# Node.js 前端相關
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+frontend/dist/
+
+# Python/PDM 後端相關
+__pycache__/
+backend/.venv/
+backend/pdm.lock
+backend/migrations/
+
+# Docker/容器化相關
+*.pid
+*.sock
+docker-compose.override.yml
+
+# 操作系統暫存檔
+*.swp
+*.swo
+*.tmp
+
+# 資料庫相關
+db.sqlite3
+
